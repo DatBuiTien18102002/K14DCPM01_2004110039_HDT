@@ -59,7 +59,7 @@ public class HangSanhSu extends HangHoa{
     @Override
     public String toString() {
 
-        return super.toString()+"\nNha san xuat: "+this.nhaSanXuat+"\nNgay nhap kho: "+sdf.format(this.ngayNhapkho) 
+        return "Hang sanh su"+super.toString()+"\nNha san xuat: "+this.nhaSanXuat+"\nNgay nhap kho: "+sdf.format(this.ngayNhapkho) 
         +"\nThoi gian ton kho: "+this.tinhTGLuuKho()+" ngay"+"\nTien VAT: "+this.tinhTienVAT()+"\nDanh gia: "+this.danhGia()+"\n";
     }
     

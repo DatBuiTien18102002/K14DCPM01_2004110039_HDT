@@ -1,6 +1,6 @@
-import java.util.Scanner;
+import java.io.Serializable;
 
-public abstract class HangHoa {
+public abstract class HangHoa implements Serializable{
     
     private String maHang;
     private String tenHang;
@@ -77,7 +77,7 @@ public abstract class HangHoa {
     @Override
     public String toString() {
  
-        return "Ma hang: "+this.maHang+"\nTen hang: "+this.tenHang+"\nSo luong ton: "+this.soLuongTon
+        return "\nMa hang: "+this.maHang+"\nTen hang: "+this.tenHang+"\nSo luong ton: "+this.soLuongTon
         +"\nDon Gia: "+this.donGia;
 
     }
